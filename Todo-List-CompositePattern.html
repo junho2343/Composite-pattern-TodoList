@@ -9,10 +9,6 @@
 <body>
     <div id="App"></div>
     <script>
-       // const el = (tag, attr={})=>Object.entries(attr).reduce((el, v)=>{
-       //    typeof el[v[0]] == 'function' ? el[v[0]](v[1]) : (el[v[0]] = v[1]);
-       //     return el;
-       // }, document.createElement(tag));
         const el = (tag, val = "") => {
             let target = document.createElement(tag);
             
@@ -91,7 +87,7 @@
         console.log(list1);
 
         /*
-        개발은 혼자 하는게 아니고, 기능이 한번 만들어지면 끝인게 아니니 깐요!!
+        개발은 혼자 하는게 아니고, 기능이 한번 만들어지면 끝인게 아니다! 
 
         개요 
         - composite pattern은 분할디자인패턴입니다.
